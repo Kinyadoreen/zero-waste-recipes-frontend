@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Feedback System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>AI Feedback System</h1>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <textarea id="userInput" placeholder="Type your feedback here..."></textarea>
+      <button onclick="sendFeedback()">Submit</button>
+    </section>
+
+    <section class="response-section">
+      <h2>AI Response</h2>
+      <div id="responseBox">Your feedback will appear here...</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> AI Feedback System</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
